@@ -1,0 +1,50 @@
+.logocontainer{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.searchbarcontainer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2.7rem;
+}
+
+.searchbar{
+    width:430px;
+    height:44px;
+    display:flex;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+}
+
+.buttoncontainer{
+    display:flex;
+    margin:0 auto;
+    width:430px;
+    padding-top: 20px;
+}
+
+.buttoncontainer input{
+    margin: 0 auto;
+    border-radius:4px;
+}
+
+.itemscontainer{
+    list-style-type: none;
+    padding: 0; 
+    display:flex;
+    flex-flow: row nowrap;
+    flex-grow: 1;
+    justify-content:flex-end;
+}
+
+.navbar{
+    padding: 10px 0px 10px 0;
+    display: flex; 
+    flex-flow:row nowrap;
+    justify-content: flex-start;
+    align-items:stretch;
+}
+
